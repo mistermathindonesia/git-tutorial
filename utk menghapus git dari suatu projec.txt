@@ -1,0 +1,18 @@
+utk menghapus git dari suatu project
+
+
+
+rm rf = tidak berhasil
+
+yang benar adalah
+Remove-Item -Recurse -Force <path>
+
+Remove-Item -Recurse -Force .git
+
+atau
+
+singkat saja dgn
+rm -Recurse -Force .git
+
+
+You seem to be using windows powershell. if that's the case, use the equivalent of "rm -rf" for powershell which would be: "rm -r -fo"
