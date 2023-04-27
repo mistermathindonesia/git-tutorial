@@ -16,3 +16,17 @@ rm -Recurse -Force .git
 
 
 You seem to be using windows powershell. if that's the case, use the equivalent of "rm -rf" for powershell which would be: "rm -r -fo"
+
+
+
+As it is stated in the Error message you have to "fetch first." This worked for me. Use the command:
+
+git fetch origin master
+Then follow these steps to merge:
+
+git pull origin master
+git add .
+git commit -m 'your commit message'
+git push origin master
+
+
