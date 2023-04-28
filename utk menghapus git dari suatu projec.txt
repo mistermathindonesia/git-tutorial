@@ -30,3 +30,23 @@ git commit -m 'your commit message'
 git push origin master
 
 
+git fecth digunakan utk meng-update to latest our all remote tracking branches 
+
+
+1. pergi ke cd change directory yg dituju
+2. git init = utk membuat folder .git di local folder kita
+3. selesaikan sampai commit
+4. git remote add <nama branch/folder> <url dari gitnya>
+5. git push origin main
+bisa disingkat dgn git push origin main --set-upstream
+6. git pull origin main push origin main --set-upstream
+
+
+set up ssh keys
+Your public key has been saved in C:\Users\username/.ssh/id_ed25519.pub
+
+ 
+
+
+
+
